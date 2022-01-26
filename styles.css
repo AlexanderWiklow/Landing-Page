@@ -1,0 +1,167 @@
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Navbar links*/
+#navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo {
+  float: left;
+  /* display: inline-block; */
+  vertical-align: top;
+  /* width: 50px; */
+  /* height: 50px; */
+  /* margin-right: 20px; */
+  margin-top: 15px; /* if you want it vertically middle of the navbar. */
+  width: 350px;
+}
+
+body {
+  padding-top: 60px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+}
+
+.fire-img,
+.truck-img,
+.battery-img {
+  margin-top: 15px;
+  width: 50px;
+  margin-right: 50px;
+}
+
+.fire-img,
+.premium,
+.truck-img,
+.battery-img,
+.fast,
+.quality {
+  display: inline-block;
+}
+
+#video {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card {
+  display: inline-block;
+  width: 600px; /* Set width of cards */
+  border: 1px solid #1d1818; /* Set up Border */
+  border-radius: 4px; /* Slightly Curve edges */
+  /*overflow: hidden; /* Fixes the corners */
+  /*display: flex; /* Children use Flexbox */
+  /*flex-direction: column; /* Rotate Axis */
+  height: 650px;
+  margin-left: 40px;
+}
+
+.card-header {
+  color: #000000;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  /* border-bottom: 1px solid #1d1818; */
+  background-color: #b4a9aa;
+  height: 80px;
+  padding: 5px 10px;
+
+  line-height: 5rem;
+}
+
+.card-main {
+  display: flex; /* Children use Flexbox */
+  flex-direction: column; /* Rotate Axis to Vertical */
+  justify-content: center; /* Group Children in Center */
+  align-items: center; /* Group Children in Center (+axis) */
+  padding: 15px 0; /* Add padding to the top/bottom */
+}
+
+.material-icons {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.materials {
+  text-align: center;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 1rem;
+}
+
+.main-description {
+  color: #d32f2f;
+  font-size: 12px;
+  text-align: center;
+}
+
+.select {
+  background: orange;
+  height: 50px;
+  margin-top: 30px;
+  border-style: none;
+  width: 200px;
+  font-size: 40px;
+}
+
+.card2 {
+  display: inline-block;
+}
+.card3 {
+  display: inline-block;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
